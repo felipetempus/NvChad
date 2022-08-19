@@ -11,7 +11,8 @@ M.general = {
     -- go to  beginning and end
     ["<C-b>"] = { "<ESC>^i", "beginning of line" },
     ["<C-e>"] = { "<End>", "end of line" },
-    ["jk"] = {"<ESC>"}
+    ["jk"] = {"<ESC>"},
+    ["JK"] = {"<ESC>"},
 
     -- navigate within insert mode
     ["<C-h>"] = { "<Left>", "move left" },
